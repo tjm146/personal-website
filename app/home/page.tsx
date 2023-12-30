@@ -10,15 +10,15 @@ import { Textarea } from "@nextui-org/react";
 
 const Home = () => {
     return (
-         <Textarea
-      variant="bordered"
-      labelPlacement="outside"
-      placeholder="Enter your description"
-      defaultValue="I am a full stack software engineer and corporate lawyer currently based out of bucolic Northeastern Pennsylvania. I create websites and iOS/Android mobile apps."
-      validationState="invalid"
-      className="max-w-xs"
-      height = {100}
-    />
+       <div className = {styles.homeBox}>
+          I am a multipotentialite based out of bucolic Northeastern
+          Pennsylvania. While employed as a full stack software engineer 
+          and data scientist, I am also a lawyer maintaining an active membership
+          with the Pennsylvania bar; pianist; audiofile; aspiring novelist; and wine, coffee, 
+          and matcha aficionado. My software engineering, mathematical, and statistical
+          skillsets span myriad stacks and disciplines, but I specialize in artificial
+          intelligence/machine learning, particularly natural language processing. 
+        </div>
   )
 }
 

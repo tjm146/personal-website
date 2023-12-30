@@ -23,12 +23,13 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
 }, []);
   
   return (
-    <html>
-      <head />
-      <body>
+    <html className={`${styles.header}`}>
+      <head className={`${styles.header}`}/>
+      <body className={`${styles.header}`}>
         <div className={`${styles.sidebar}`}>
           <Link href="../home">Home</Link>
-          <Link href="../bio">Bio</Link>
+          <Link href="../softwareEngineering">Software Engineering</Link>
+          <Link href="../projects">Projects</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <div className={`${styles.message}`}> {children} </div>
@@ -84,7 +85,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                                 default: "bounce",
                             },
                             random: false,
-                            speed: 6,
+                            speed: 8,
                             straight: false,
                         },
                         number: {
