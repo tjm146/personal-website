@@ -29,7 +29,12 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
         <div className={`${styles.sidebar}`}>
           <Link href="../home">Home</Link>
           <Link href="../softwareEngineering">Software Engineering</Link>
-          <Link href="../projects">Projects</Link>
+          <Link href="../softwareEngineering">Data Science</Link>
+          <Link href="../softwareEngineering">Legal Practice</Link>
+          <Link href="../projects">Personal Projects</Link>
+          <Link href="../softwareEngineering">Resume</Link>
+          <Link href="../softwareEngineering">Business Offered</Link>
+          <Link href="../softwareEngineering">About Me</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <div className={`${styles.message}`}> {children} </div>

@@ -11,30 +11,31 @@ const SoftwareEngineering = () => {
     return (
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
-                <div className = {styles.bioHeader}>
+                <div className = {styles.philosophyHeader}>
                     My Software Engineering Philosophy
                 </div>
                 <div className = {styles.bioBody}>
-                     I sculpt web, mobile, and desktop
-                     applications in accordance with a 
-                     tripartite design philosophy: 
-                     modern, minimalistic, and 
-                     meticulous. Software engineering
-                     is a fast-moving field whose 
-                     practitioners must vigilantly 
-                     watch for new developments. Thankfully, 
-                     I thrive in myriad environments by 
-                     leveraging my eclectic education 
-                     and epistemophilic nature to quickly
-                     master new information and incorporate it 
-                     into my systems, ensuring they adhere to best
-                     practices and remain on the vanguard of 
-                     technological and aesthetical innovation.
+                    I sculpt web, mobile, and desktop
+                    applications in accord with a 
+                    tripartite design philosophy: 
+                    modern, minimalistic, and 
+                    meticulous.
+                    Software engineering
+                    is a fast-moving field whose 
+                    practitioners must vigilantly 
+                    watch for new developments. Thankfully, 
+                    I thrive in myriad environments by 
+                    leveraging my eclectic education; exceptional attention to detail; 
+                    and epistemophilic nature to quickly
+                    master new information and seamlessly incorporate it 
+                    into my systems, ensuring they adhere to best
+                    practices and remain on the vanguard of 
+                    technological and aesthetical innovation.
                 </div>
                 <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
-                <div className = {styles.listBioHeader}>
+                <div className = {styles.skillsHeader}>
                     Skills
                 </div>
                 <div className = {styles.listBioBody}>
@@ -46,13 +47,10 @@ const SoftwareEngineering = () => {
                             JavaScript/TypeScript
                         </div>
                         <div className = {styles.listItem}>
-                            C++
-                        </div>
-                        <div className = {styles.listItem}>
                             Swift
                         </div>
                         <div className = {styles.listItem}>
-                            R
+                            C++
                         </div>
                         <div className = {styles.listItem}>
                             Flutter/Dart
@@ -61,13 +59,19 @@ const SoftwareEngineering = () => {
                             SQL
                         </div>
                         <div className = {styles.listItem}>
+                            MSSQL/PostgreSQL/MySQL
+                        </div>
+                        <div className = {styles.listItem}>
                             HTML/CSS
                         </div>
                         <div className = {styles.listItem}>
                             Azure Devops/CI/CD
                         </div>
                         <div className = {styles.listItem}>
-                            Linear Algebra
+                            Oral/Written Communication
+                        </div>
+                        <div className = {styles.listItem}>
+                            Presentation/Public Speaking
                         </div>
                     </div>
                     <div className = {styles.bioBodyHalfRight}>
@@ -78,13 +82,10 @@ const SoftwareEngineering = () => {
                             Java
                         </div>
                         <div className = {styles.listItem}>
-                            C
-                        </div>
-                        <div className = {styles.listItem}>
                             Kotlin
                         </div>
                         <div className = {styles.listItem}>
-                            MATLAB
+                            C
                         </div>
                         <div className = {styles.listItem}>
                             Capacitor
@@ -93,20 +94,26 @@ const SoftwareEngineering = () => {
                             NoSQL
                         </div>
                         <div className = {styles.listItem}>
+                            MongoDB/Redis
+                        </div>
+                        <div className = {styles.listItem}>
                             React/Vue/Angular
                         </div>
                         <div className = {styles.listItem}>
-                            Multivariable Calculus
+                            Leadership
                         </div>
                         <div className = {styles.listItem}>
-                            Math Stats/Probability
+                            Project Management
+                        </div>
+                        <div className = {styles.listItem}>
+                            Mentoring
                         </div>
                     </div>
                 </div>
                 <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
-                <div className = {styles.bioHeader}>
+                <div className = {styles.employmentHeader}>
                     Employment
                 </div>
                 <div className = {styles.bioBodyVertical} >
@@ -123,16 +130,34 @@ const SoftwareEngineering = () => {
                         mobile applications. I also leverage my lawyer skillset 
                         and interpersonal skills to write business proposals;  
                         onboard new clients; and lead requirements gathering and 
-                        early development. 
+                        early development. My experience encompasses several projects:
                     </div>
                     <div className = {styles.listItemFullNew}>
                         • Developed a .NET web application that continuously fetches 
                         river streamflow data, updates a database, generates Excel 
-                        reports, and notifies users of abnormal readings. Also 
-                        created an Azure Logic App Recurrence to schedule and run it.
+                        reports, and &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; notifies users of abnormal readings. Also 
+                        created an Azure Logic App Recurrence to run it.
+                    </div>
+                    <div className = {styles.listItemFullNew}>
+                    •	Designed and implemented a machine learning model that utilizes current river     
+                        streamflow and weather data to accurately predict future streamflow levels.
+                    </div>
+                    <div className = {styles.listItemFullNew}>
+                        • Led a five-developer team that used Capacitor to create a  
+                        Vue web, iOS, and Android client portal for a large regional 
+                        health company. Also created the Azure CI/CD.
+                    </div>
+                    <div className = {styles.listItemFullNew}>
+                    •	Developed both the Angular frontend and C# backend of a legal aid organization’s    
+                        client, attorney, and case management system. Also regularly met with the client’s
+                        chief executive to explain changes and solicit feedback.
+                    </div>
+                    <div className = {styles.listItemFullNew}>
+                    •	Created optimized SQL stored procedures and C# LINQ queries to efficiently 
+                        aggregate data from numerous database tables, enabling a Concussion testing
+                        application’s users to quickly generate custom, complex Excel reports.
                     </div>
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
         </div>
     );

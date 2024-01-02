@@ -2,23 +2,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    width: 18%;
-    height: 100%;
-    background-color: #ffffff;
+    width: 18vw;
+    height: 100vh;
+    background-color: #fff;
     position: fixed;
-    text-align: left;
     color: #000000;
-    font-size:2vw;
+    font-size:1.3vw;
     z-index: 99999999999;
-    
 }
 
 .sidebar a {
     display: block;
     color: black;
-    padding: 20px;
+    padding-left: 2vw;
     text-decoration: none;
+    height: 10vh;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    font-size: 1.3vw;
+    text-justify: end;
+    text-align: start;
+    text-justify: center;
     border-bottom: 1px solid rgb(0, 0, 0);
+    white-space: pre-line;
+    line-height: 10vh;
 }
 
 .sidebar a:hover:not(.active) {
@@ -55,12 +63,12 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    padding-left: 27%;
     color: white;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 999999999;
-    width: 80vw;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .header{
@@ -71,32 +79,59 @@
    }
 
 .homeBox{
-  width: 90%;
+  width: 70vw;
   line-height: 25px;
   font-family: Lato;
   font-size: 1.5vw;
+  overflow-x: hidden;
 }
 
 .fullPage{
     width: 70vw;
-    height: 96vh;
+    height: 100vh;
     text-align: center;
     line-height: 25px;
     font-family: Lato;
-    border-bottom: 3px white solid;
+    padding-left: 15vw;
   }
 
-.bioHeader{
-width: 70vw;
-height: 19vh;
-text-align: center;
+.philosophyHeader{
+width: 60vw;
+height: 10vh;
+text-align: start;
 padding-top: 40px;
 line-height: 25px;
 font-family: Lato;
-font-size: 40px;
+font-size: 2.75vw;
 text-emphasis: bold;
 text-transform: uppercase;
+margin-left: 13.75vw;
 }
+
+.skillsHeader{
+    width: 60vw;
+    height: 10vh;
+    text-align: start;
+    line-height: 25px;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 36.65vw;
+    padding-top: 1vh;
+    }
+
+.employmentHeader{
+    width: 60vw;
+    height: 10vh;
+    text-align: start;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 33vw;
+    padding-top: 3vh;
+    }
 
 .bioBodyFull{
     width: 70vw;
@@ -116,9 +151,12 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: start;
+    text-justify: start;
     line-height: 25px;
     font-family: Lato;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    margin-left: 8vw;
 }
 
 .bioBodyVertical{
@@ -165,6 +203,7 @@ text-transform: uppercase;
     padding-left: 8vw;
     font-family: Lato;
     font-size: 1.2vw;
+    margin-left: 8vw;
 }
 
 .bioBodyHalfRight{
@@ -177,7 +216,7 @@ text-transform: uppercase;
     align-items: start;
     line-height: 5px;
     font-family: Lato;
-    padding-left: 38vw;
+    margin-left: 28vw;
     font-size: 1.2vw;
 }
 
@@ -227,11 +266,14 @@ text-transform: uppercase;
     }
 
 .containerPage {
-    width: 70vw;
+    width: 99vw;
     height: 100vh;
     overflow-y: scroll;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding-left: 1vw;
+    overflow-x: hidden;
 }
 
 .listHeader{
@@ -248,11 +290,14 @@ text-transform: uppercase;
     width: 70vw;
     height: 20vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     line-height: 25px;
     font-family: Lato;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    margin-bottom: 3vw;
+    margin-left: 8vw;
 }
 
 .listItemFull{
@@ -263,18 +308,21 @@ text-transform: uppercase;
     align-items: center;
     line-height: 25px;
     font-family: Lato;
+    margin-left: 8vw;
 }
 
 .listItemFullNew{
-    width: 70vw;
-    height: 10vh;
+    width: 67vw;
+    height: 7.5vh;
     display: flex;
     justify-content: left;
     align-items: left;
     text-align: left;
     line-height: 25px;
     font-family: Lato;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    margin-bottom: 1.5vw;
+    margin-left: 10vw;
 }
 
 @font-face {
