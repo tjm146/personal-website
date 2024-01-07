@@ -39,6 +39,19 @@
     height: 100px;
 }
 
+.homeBox{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    line-height: 25px;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-left: 8vw;
+}
+
 .cityscape {
     background-image: url('/Fractal.jpg');
     max-width: 100%;
@@ -78,13 +91,20 @@
     text-align: left;
    }
 
-.homeBox{
-  width: 70vw;
-  line-height: 25px;
-  font-family: Lato;
-  font-size: 1.5vw;
-  overflow-x: hidden;
+.bigListItemFull{
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 25px;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 3vw;
+    margin-left: 8vw;
 }
+
 
 .fullPage{
     width: 70vw;
@@ -109,17 +129,17 @@ margin-left: 13.75vw;
 }
 
 .skillsHeader{
-    width: 60vw;
-    height: 10vh;
-    text-align: start;
-    line-height: 25px;
-    font-family: Lato;
-    font-size: 2.75vw;
-    text-emphasis: bold;
-    text-transform: uppercase;
-    margin-left: 36.65vw;
-    padding-top: 1vh;
-    }
+width: 60vw;
+height: 10vh;
+text-align: start;
+line-height: 25px;
+font-family: Lato;
+font-size: 2.75vw;
+text-emphasis: bold;
+text-transform: uppercase;
+margin-left: 36.65vw;
+padding-top: 1vh;
+}
 
 .employmentHeader{
     width: 60vw;
@@ -131,6 +151,18 @@ margin-left: 13.75vw;
     text-transform: uppercase;
     margin-left: 33vw;
     padding-top: 3vh;
+}
+
+.dataScienceHeader{
+    width: 60vw;
+    height: 10vh;
+    text-align: start;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 15.5vw;
+    padding-top: 40px;
     }
 
 .bioBodyFull{
@@ -147,12 +179,11 @@ margin-left: 13.75vw;
 
 .bioBody{
     width: 70vw;
-    height: 58vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: start;
-    text-justify: start;
     line-height: 25px;
     font-family: Lato;
     font-size: 1.2vw;

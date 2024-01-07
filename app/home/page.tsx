@@ -10,15 +10,19 @@ import { Textarea } from "@nextui-org/react";
 
 const Home = () => {
     return (
-       <div className = {styles.homeBox}>
-          I am a multipotentialite based out of bucolic Northeastern
-          Pennsylvania. While employed as a full stack software engineer 
-          and data scientist, I am also a lawyer maintaining an active membership
-          with the Pennsylvania bar; pianist; audiofile; aspiring novelist; and wine, coffee, 
-          and matcha aficionado. My software engineering, mathematical, and statistical
+        <div className = {styles.containerPage}>
+        <div className = {styles.fullPage}>
+            <div className = {styles.homeBox}>
+            I am a multipotentialite based out of bucolic Northeastern
+          Pennsylvania. While employed as a full stack software engineer, 
+          I am also a machine learning engineer/data scientist; lawyer maintaining an active membership
+          with the Pennsylvania bar; aspiring novelist; and pianist. My mathematical, engineering, and statistical
           skillsets span myriad stacks and disciplines, but I specialize in artificial
-          intelligence/machine learning, particularly natural language processing. 
-        </div>
+          intelligence/machine learning, particularly natural language processing. I am always looking for  
+          new mathematical challenges and am amenable to AI and software business inquiries. 
+            </div>
+            </div>
+            </div>
   )
 }
 

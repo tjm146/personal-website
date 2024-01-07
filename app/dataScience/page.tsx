@@ -11,26 +11,38 @@ const SoftwareEngineering = () => {
     return (
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
-                <div className = {styles.philosophyHeader}>
-                    My Software Engineering Philosophy
+                <div className = {styles.dataScienceHeader}>
+                    My AI and Data Science Credentials
                 </div>
                 <div className = {styles.bioBody}>
-                    I sculpt web, mobile, and desktop
-                    applications in accord with a 
-                    tripartite design philosophy: 
-                    modern, minimalistic, and 
-                    meticulous.
-                    Software engineering
-                    is a fast-moving field whose 
-                    practitioners must vigilantly 
-                    watch for new developments. Thankfully, 
-                    I thrive in any environment by 
-                    leveraging my eclectic education; exceptional attention to detail; 
-                    and epistemophilic nature to quickly
-                    master new information and seamlessly incorporate it 
-                    into my systems, ensuring they adhere to best
-                    practices and remain on the vanguard of 
-                    technological and aesthetical innovation.
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                    Artificial intelligence and data science are amalgamations 
+                    of three adjacent, salient disciplines: computer science, 
+                    mathematics, and statistics. My command of these fundamental 
+                    subjects—especially algorithm optimization, multivariable 
+                    calculus, linear algebra, predicate logic, and mathematical 
+                    statistics and probability—furnishes me with a robust 
+                    foundation I leverage to quickly familiarize myself with 
+                    any area of AI or data science. Although I have spent the past 
+                    two-and-a-half years pouring over a multiplicity of mathematical, 
+                    statistical, and computer science texts, I learn best by 
+                    example and have developed an assortment of mathematical 
+                    applications that utilize large data sets to solve tough problems.
+                    <br /> <br />  &nbsp; &nbsp; &nbsp; &nbsp;
+                    For the past year, I have focused most of my research
+                    on natural language processing: designing systems to understand, 
+                    analyze, and generate human language. This subfield utilizes 
+                    mathematics and linguistics to unite the logical, binary world 
+                    of machines with the impassioned, creative human milieu, empowering  
+                    me to fully leverage my mathematical, software, legal, and novelistic 
+                    skillsets to create some extraordinary, innovative applications. I have performed 
+                    original research investigating the application of natural language and signal 
+                    processing to piano notes and sheet music and have observed some success translating
+                    between sheet music and mathematical representations of piano notes. Much requested 
+                    by my attorney friends, my current endeavor is my most ambitious yet: LLM-powered legal
+                    document drafting and review software. While my work is still in its infancy, my 
+                    nascent models can already detect obvious errors in basic documents such as 
+                    Articles of Incorporation. 
                 </div>
                 <div className = {styles.bioBottomSpacing}></div>
             </div>
@@ -41,25 +53,28 @@ const SoftwareEngineering = () => {
                 <div className = {styles.listBioBody}>
                     <div className = {styles.bioBodyHalfLeft}>
                         <div className = {styles.listItem}>
-                            C#
+                            Python
                         </div>
                         <div className = {styles.listItem}>
-                            JavaScript/TypeScript
+                            MATLAB
                         </div>
                         <div className = {styles.listItem}>
-                            Swift
+                            Pytorch
                         </div>
                         <div className = {styles.listItem}>
                             C++
                         </div>
                         <div className = {styles.listItem}>
-                            Flutter/Dart
+                            NumPy
                         </div>
                         <div className = {styles.listItem}>
-                            SQL
+                            SQL Alchemy
                         </div>
                         <div className = {styles.listItem}>
-                            MSSQL/PostgreSQL/MySQL
+                            Relational DBs
+                        </div>
+                        <div className = {styles.listItem}>
+                            MySQL/PostgreSQL/MSSQL
                         </div>
                         <div className = {styles.listItem}>
                             HTML/CSS
@@ -70,28 +85,28 @@ const SoftwareEngineering = () => {
                         <div className = {styles.listItem}>
                             Oral/Written Communication
                         </div>
-                        <div className = {styles.listItem}>
-                            Presentation/Public Speaking
-                        </div>
                     </div>
                     <div className = {styles.bioBodyHalfRight}>
                         <div className = {styles.listItem}>
-                            Python
+                            R
                         </div>
                         <div className = {styles.listItem}>
-                            Java
+                            Julia
                         </div>
                         <div className = {styles.listItem}>
-                            Kotlin
+                            TensorFlow/Keras
                         </div>
                         <div className = {styles.listItem}>
-                            C
+                            SciPy
                         </div>
                         <div className = {styles.listItem}>
-                            Capacitor
+                            Pandas
                         </div>
                         <div className = {styles.listItem}>
-                            NoSQL
+                            C++
+                        </div>
+                        <div className = {styles.listItem}>
+                            Non-Relational DBs
                         </div>
                         <div className = {styles.listItem}>
                             MongoDB/Redis
@@ -104,9 +119,6 @@ const SoftwareEngineering = () => {
                         </div>
                         <div className = {styles.listItem}>
                             Project Management
-                        </div>
-                        <div className = {styles.listItem}>
-                            Mentoring
                         </div>
                     </div>
                 </div>
