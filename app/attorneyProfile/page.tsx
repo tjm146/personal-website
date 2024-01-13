@@ -29,7 +29,6 @@ const Attorney = () => {
                     I also keep my skillset fresh by helping family and friends with small legal issues and volunteering 
                     for pro bono legal work. 
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.skillsHeader}>

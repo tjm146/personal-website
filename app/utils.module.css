@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
     text-align: start;
-    line-height: 3.6vh;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-left: 8vw;
@@ -165,6 +165,7 @@ padding-top: 6vh;
     text-transform: uppercase;
     margin-left: 33vw;
     padding-top: 3vh;
+    padding-bottom: 2.9vh;
 }
 
 .mLemploymentHeader{
@@ -177,6 +178,7 @@ padding-top: 6vh;
     text-transform: uppercase;
     margin-left: 20vw;
     padding-top: 3vh;
+    padding-bottom: 2.9vh;
 }
 
 .dataScienceHeader{
@@ -189,7 +191,7 @@ padding-top: 6vh;
     text-transform: uppercase;
     margin-left: 5vw;
     padding-top: 6vh;
-    padding-bottom: 1vh;
+    padding-bottom: 1.6vh;
     }
 
 .attorneyHeader{
@@ -244,7 +246,7 @@ padding-top: 6vh;
     height: 10vh;
     text-align: center;
     padding-top: 6vh;
-    line-height: 15px;
+    line-height: 2vh;
     font-family: Lato;
     font-size: 7.5vh;
     text-emphasis: bold;
@@ -257,7 +259,7 @@ padding-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 4vh;
+    line-height: .3vh;
     font-family: Lato;
 }
 
@@ -266,10 +268,10 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:50px;
+    gap:7.5vh;
     justify-content: start;
     align-items: start;
-    line-height: 5px;
+    line-height: .3vh;
     padding-left: 8vw;
     font-family: Lato;
     font-size: 1.2vw;
@@ -284,7 +286,7 @@ padding-top: 6vh;
     gap: 5vh;
     justify-content: start;
     align-items: start;
-    line-height: 3.5px;
+    line-height: .3vh;
     padding-left: 8vw;
     font-family: Lato;
     font-size: 1.2vw;
@@ -296,10 +298,10 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap: 43px;
+    gap: 6.25vh;
     justify-content: start;
     align-items: start;
-    line-height: 3.5px;
+    line-height: .3vh;
     padding-left: 8vw;
     font-family: Lato;
     font-size: 1.2vw;
@@ -311,10 +313,10 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:50px;
+    gap:7.5vh;
     justify-content: start;
     align-items: start;
-    line-height: 5px;
+    line-height: .3vh;
     font-family: Lato;
     margin-left: 28vw;
     font-size: 1.2vw;
@@ -328,7 +330,7 @@ padding-top: 6vh;
     gap: 5vh;
     justify-content: start;
     align-items: start;
-    line-height: 3.5px;
+    line-height: .3vh;
     font-family: Lato;
     margin-left: 24vw;
     font-size: 1.2vw;
@@ -339,10 +341,10 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:43px;
+    gap:6.25vh;
     justify-content: start;
     align-items: start;
-    line-height: 3.5px;
+    line-height: .3vh;
     font-family: Lato;
     margin-left: 24vw;
     font-size: 1.2vw;
@@ -354,10 +356,10 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:50px;
+    gap:6vh;
     justify-content: start;
     align-items: center;
-    line-height: 5px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
 }
@@ -369,9 +371,9 @@ padding-top: 6vh;
     margin-left: -40vw;
     justify-content: left;
     align-items: left;
-    line-height: 5px;
+    line-height: 4vh;
     font-family: Lato;
-    padding-left: 0px;
+    padding-left: 0vw;
 }
 
 .listElementFull{
@@ -380,9 +382,9 @@ padding-top: 6vh;
     display: flex;
     justify-content: left;
     align-items: center;
-    line-height: 5px;
+    line-height: 4vh;
     font-family: Lato;
-    padding-left: 0px;
+    padding-left: 0vw;
     word-wrap: break-word;
     white-space: wrap;
 }

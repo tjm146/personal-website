@@ -44,7 +44,6 @@ const SoftwareEngineering = () => {
                     nascent models can already detect obvious errors in basic documents such as 
                     Articles of Incorporation. 
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.mLskillsHeader}>
@@ -152,7 +151,6 @@ const SoftwareEngineering = () => {
                         </div>
                     </div>
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.mLemploymentHeader}>

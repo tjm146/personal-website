@@ -33,7 +33,6 @@ const SoftwareEngineering = () => {
                     practices and remain on the vanguard of 
                     technological and aesthetical innovation.
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.skillsHeader}>
@@ -111,7 +110,6 @@ const SoftwareEngineering = () => {
                         </div>
                     </div>
                 </div>
-                <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.employmentHeader}>
