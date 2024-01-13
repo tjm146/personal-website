@@ -1,6 +1,6 @@
 .sidebar {
-    margin: 0px;
-    padding: 0px;
+    margin: 0vw;
+    padding: 0vw;
     box-sizing: border-box;
     width: 18vw;
     height: 100vh;
@@ -24,7 +24,7 @@
     text-justify: end;
     text-align: start;
     text-justify: center;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: .14vh solid rgb(0, 0, 0);
     white-space: pre-line;
     line-height: 10vh;
 }
@@ -35,8 +35,8 @@
 }
 
 .content {
-    margin-left: 200px;
-    height: 100px;
+    margin-left: 5vw;
+    height: 100vh;
 }
 
 .homeBox{
@@ -46,7 +46,7 @@
     justify-content: center;
     align-items: center;
     text-align: start;
-    line-height: 25px;
+    line-height: 3.6vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-left: 8vw;
@@ -98,7 +98,7 @@
     justify-content: left;
     align-items: left;
     text-align: left;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-bottom: 3vw;
@@ -110,7 +110,7 @@
     width: 70vw;
     height: 100vh;
     text-align: center;
-    line-height: 25px;
+    line-height: 6vh;
     font-family: Lato;
     padding-left: 15vw;
   }
@@ -119,20 +119,21 @@
 width: 60vw;
 height: 10vh;
 text-align: start;
-padding-top: 40px;
-line-height: 25px;
+padding-top: 6vh;
+line-height: 4vh;
 font-family: Lato;
 font-size: 2.75vw;
 text-emphasis: bold;
 text-transform: uppercase;
 margin-left: 13.75vw;
+padding-bottom: 1vh;
 }
 
 .skillsHeader{
 width: 60vw;
 height: 10vh;
 text-align: start;
-line-height: 25px;
+line-height: 4vh;
 font-family: Lato;
 font-size: 2.75vw;
 text-emphasis: bold;
@@ -145,13 +146,13 @@ padding-top: 6vh;
     width: 60vw;
     height: 10vh;
     text-align: start;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 2.75vw;
     text-emphasis: bold;
     text-transform: uppercase;
     margin-left: 36.65vw;
-    padding-top: 1vh;
+    padding-top: 2vh;
     }
 
 .employmentHeader{
@@ -187,7 +188,8 @@ padding-top: 6vh;
     text-emphasis: bold;
     text-transform: uppercase;
     margin-left: 5vw;
-    padding-top: 40px;
+    padding-top: 6vh;
+    padding-bottom: 1vh;
     }
 
 .attorneyHeader{
@@ -199,17 +201,17 @@ padding-top: 6vh;
     text-emphasis: bold;
     text-transform: uppercase;
     margin-left: 27vw;
-    padding-top: 40px;
+    padding-top: 6vh;
     }
 
 .bioBodyFull{
     width: 70vw;
     height: 790vh;
     text-align: center;
-    padding-top: 40px;
-    line-height: 25px;
+    padding-top: 6vh;
+    line-height: 4vh;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 7.5vh;
     text-emphasis: bold;
     text-transform: uppercase;
     }
@@ -221,7 +223,7 @@ padding-top: 6vh;
     justify-content: center;
     align-items: center;
     text-align: start;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-left: 8vw;
@@ -233,7 +235,7 @@ padding-top: 6vh;
     display: block;
     justify-content: center;
     align-items: center;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
 }
 
@@ -241,10 +243,10 @@ padding-top: 6vh;
     width: 70vw;
     height: 10vh;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 6vh;
     line-height: 15px;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 7.5vh;
     text-emphasis: bold;
     text-transform: uppercase;
     }
@@ -255,7 +257,7 @@ padding-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
 }
 
@@ -279,7 +281,7 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:36.75px;
+    gap: 5vh;
     justify-content: start;
     align-items: start;
     line-height: 3.5px;
@@ -323,7 +325,7 @@ padding-top: 6vh;
     height: 70vh;
     display: flex;
     flex-direction: column;
-    gap:36.75px;
+    gap: 5vh;
     justify-content: start;
     align-items: start;
     line-height: 3.5px;
@@ -408,7 +410,7 @@ padding-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
 }
 
@@ -419,7 +421,7 @@ padding-top: 6vh;
     justify-content: left;
     align-items: left;
     text-align: left;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-bottom: 3vw;
@@ -432,7 +434,7 @@ padding-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     margin-left: 8vw;
 }
@@ -444,7 +446,7 @@ padding-top: 6vh;
     justify-content: left;
     align-items: left;
     text-align: left;
-    line-height: 25px;
+    line-height: 4vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-bottom: 1.5vw;
