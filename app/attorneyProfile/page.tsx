@@ -22,11 +22,12 @@ const Attorney = () => {
                     do not currently practice much law outside of helping family and 
                     close friends, I hope to increase my practice in the near future and 
                     remain au fait in three areas: corporate, antitrust, and data 
-                    protection/cybersecurity law. I maintain knowledge of these core areas 
-                    by regularly reading law reviews/journals, casebooks, and germane 
-                    cases, statutes, and regulations; my annual Continuing Legal Eduction 
-                    Courses—which I focus on these three areas—also keeps me fresh. 
-                    I also keep my skillset fresh by helping family and friends with small legal issues and volunteering 
+                    protection/cybersecurity law. I maintain knowledge of these areas 
+                    by regularly reading law reviews and journals; casebooks; and germane 
+                    cases, statutes, and regulations. My annual Continuing Legal Eduction 
+                    courses, which I focus on these three legal disciplines, also keep me updated 
+                    on new, pertinent develops. Finally, I sustain my skillset by helping family 
+                    and friends with legal issues—especially contract matters—and volunteering 
                     for pro bono legal work. 
                 </div>
             </div>
