@@ -138,8 +138,21 @@ font-size: 2.75vw;
 text-emphasis: bold;
 text-transform: uppercase;
 margin-left: 36.65vw;
-padding-top: 1vh;
+padding-top: 6vh;
 }
+
+.mLskillsHeader{
+    width: 60vw;
+    height: 10vh;
+    text-align: start;
+    line-height: 25px;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 36.65vw;
+    padding-top: 1vh;
+    }
 
 .employmentHeader{
     width: 60vw;
@@ -153,7 +166,7 @@ padding-top: 1vh;
     padding-top: 3vh;
 }
 
-.dataScienceHeader{
+.mLemploymentHeader{
     width: 60vw;
     height: 10vh;
     text-align: start;
@@ -161,7 +174,31 @@ padding-top: 1vh;
     font-size: 2.75vw;
     text-emphasis: bold;
     text-transform: uppercase;
-    margin-left: 15.5vw;
+    margin-left: 20vw;
+    padding-top: 3vh;
+}
+
+.dataScienceHeader{
+    width: 100vw;
+    height: 10vh;
+    text-align: start;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 5vw;
+    padding-top: 40px;
+    }
+
+.attorneyHeader{
+    width: 100vw;
+    height: 10vh;
+    text-align: start;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 27vw;
     padding-top: 40px;
     }
 
@@ -237,6 +274,36 @@ padding-top: 1vh;
     margin-left: 8vw;
 }
 
+.bioBodyHalfLeftNew{
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap:36.75px;
+    justify-content: start;
+    align-items: start;
+    line-height: 3.5px;
+    padding-left: 8vw;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-left: 8vw;
+}
+
+.bioBodyHalfLeftLaw{
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    justify-content: start;
+    align-items: start;
+    line-height: 3.5px;
+    padding-left: 8vw;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-left: 8vw;
+}
+
 .bioBodyHalfRight{
     width: 35vw;
     height: 70vh;
@@ -248,6 +315,34 @@ padding-top: 1vh;
     line-height: 5px;
     font-family: Lato;
     margin-left: 28vw;
+    font-size: 1.2vw;
+}
+
+.bioBodyHalfRightNew{
+    width: 55vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap:36.75px;
+    justify-content: start;
+    align-items: start;
+    line-height: 3.5px;
+    font-family: Lato;
+    margin-left: 24vw;
+    font-size: 1.2vw;
+}
+
+.bioBodyHalfRightLaw{
+    width: 55vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap:43px;
+    justify-content: start;
+    align-items: start;
+    line-height: 3.5px;
+    font-family: Lato;
+    margin-left: 24vw;
     font-size: 1.2vw;
 }
 

@@ -15,6 +15,7 @@ const SoftwareEngineering = () => {
                     My Software Engineering Philosophy
                 </div>
                 <div className = {styles.bioBody}>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
                     I sculpt web, mobile, and desktop
                     applications in accord with a 
                     tripartite design philosophy: 
@@ -118,12 +119,13 @@ const SoftwareEngineering = () => {
                 </div>
                 <div className = {styles.bioBodyVertical} >
                     <div className = {styles.bigListItemFull}>
+                    &nbsp; &nbsp; &nbsp; &nbsp; 
                         I have worked as a full stack software engineer at Sho 
                         Technology Solutions since April 2022. I spend most of my
                         time writing, reviewing, and optimizing C# and SQL 
                         in Microsoft's .NET/Azure ecosystem. My 
                         responsibilities also include leading development teams by 
-                        communicating with clients, assisting junior developers, 
+                        liaising with clients, assisting junior developers, 
                         and reviewing pull requests; implenting Azure CI/CD; 
                         developing React, Vue, and Angular websites; and 
                         architecting both native and Capacitor-generated 

@@ -13,13 +13,15 @@ const Home = () => {
         <div className = {styles.containerPage}>
         <div className = {styles.fullPage}>
             <div className = {styles.homeBox}>
-            I am a multipotentialite based out of bucolic Northeastern
-          Pennsylvania. While employed as a full stack software engineer, 
-          I am also a machine learning engineer/data scientist; lawyer maintaining an active membership
-          with the Pennsylvania bar; aspiring novelist; and pianist. My mathematical, engineering, and statistical
-          skillsets span myriad stacks and disciplines, but I specialize in artificial
-          intelligence/machine learning, particularly natural language processing. I am always looking for  
-          new mathematical challenges and am amenable to AI and software business inquiries. 
+            &nbsp; &nbsp; &nbsp; &nbsp;
+          A multipotentialite currently based out of bucolic Northeastern
+          Pennsylvania, I am a machine learning engineer; full stack software engineer; data scientist; 
+          active, licensed lawyer; pianist; and aspiring novelist. My mathematical, 
+          engineering, and statistical skillsets span myriad stacks and 
+          disciplines, but I specialize in artificial intelligence/machine learning, 
+          particularly natural language processing. I am constantly seeking new 
+          mathematical challenges and am amenable to machine learning engineering, data science, 
+          and software engineering proposals. 
             </div>
             </div>
             </div>

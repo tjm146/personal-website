@@ -12,32 +12,32 @@ const SoftwareEngineering = () => {
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
                 <div className = {styles.dataScienceHeader}>
-                    My AI and Data Science Credentials
+                    My Machine Learning & Data Science Credentials
                 </div>
                 <div className = {styles.bioBody}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 
-                    Artificial intelligence and data science are amalgamations 
+                    Machine learning and data science are amalgamations 
                     of three adjacent, salient disciplines: computer science, 
                     mathematics, and statistics. My command of these fundamental 
                     subjects—especially algorithm optimization, multivariable 
                     calculus, linear algebra, predicate logic, and mathematical 
                     statistics and probability—furnishes me with a robust 
                     foundation I leverage to quickly familiarize myself with 
-                    any area of AI or data science. Although I have spent the past 
+                    any area of machine learning. Although I have spent the past 
                     two-and-a-half years pouring over a multiplicity of mathematical, 
                     statistical, and computer science texts, I learn best by 
                     example and have developed an assortment of mathematical 
-                    applications that utilize large data sets to solve tough problems.
+                    applications that utilize large data sets to solve difficult problems.
                     <br /> <br />  &nbsp; &nbsp; &nbsp; &nbsp;
                     For the past year, I have focused most of my research
                     on natural language processing: designing systems to understand, 
                     analyze, and generate human language. This subfield utilizes 
                     mathematics and linguistics to unite the logical, binary world 
                     of machines with the impassioned, creative human milieu, empowering  
-                    me to fully leverage my mathematical, software, legal, and novelistic 
+                    me to fully utilize my mathematical, software, legal, and novelistic 
                     skillsets to create some extraordinary, innovative applications. I have performed 
                     original research investigating the application of natural language and signal 
-                    processing to piano notes and sheet music and have observed some success translating
+                    processing to piano notes and sheet music and have enjoyed early success translating
                     between sheet music and mathematical representations of piano notes. Much requested 
                     by my attorney friends, my current endeavor is my most ambitious yet: LLM-powered legal
                     document drafting and review software. While my work is still in its infancy, my 
@@ -47,129 +47,161 @@ const SoftwareEngineering = () => {
                 <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
-                <div className = {styles.skillsHeader}>
+                <div className = {styles.mLskillsHeader}>
                     Skills
                 </div>
                 <div className = {styles.listBioBody}>
-                    <div className = {styles.bioBodyHalfLeft}>
+                    <div className = {styles.bioBodyHalfLeftNew}>
                         <div className = {styles.listItem}>
                             Python
-                        </div>
-                        <div className = {styles.listItem}>
-                            MATLAB
-                        </div>
-                        <div className = {styles.listItem}>
-                            Pytorch
-                        </div>
-                        <div className = {styles.listItem}>
-                            C++
-                        </div>
-                        <div className = {styles.listItem}>
-                            NumPy
-                        </div>
-                        <div className = {styles.listItem}>
-                            SQL Alchemy
-                        </div>
-                        <div className = {styles.listItem}>
-                            Relational DBs
-                        </div>
-                        <div className = {styles.listItem}>
-                            MySQL/PostgreSQL/MSSQL
-                        </div>
-                        <div className = {styles.listItem}>
-                            HTML/CSS
-                        </div>
-                        <div className = {styles.listItem}>
-                            Azure Devops/CI/CD
-                        </div>
-                        <div className = {styles.listItem}>
-                            Oral/Written Communication
-                        </div>
-                    </div>
-                    <div className = {styles.bioBodyHalfRight}>
-                        <div className = {styles.listItem}>
-                            R
                         </div>
                         <div className = {styles.listItem}>
                             Julia
                         </div>
                         <div className = {styles.listItem}>
-                            TensorFlow/Keras
-                        </div>
-                        <div className = {styles.listItem}>
-                            SciPy
-                        </div>
-                        <div className = {styles.listItem}>
-                            Pandas
-                        </div>
-                        <div className = {styles.listItem}>
                             C++
                         </div>
                         <div className = {styles.listItem}>
-                            Non-Relational DBs
+                        SQL: My/Postgre/MS
                         </div>
                         <div className = {styles.listItem}>
-                            MongoDB/Redis
+                            PyTorch
                         </div>
                         <div className = {styles.listItem}>
-                            React/Vue/Angular
+                        SciPy/NumPy/Pandas/Matplotlib
                         </div>
                         <div className = {styles.listItem}>
-                            Leadership
+                        NLTK/spaCY/OpenAI API
                         </div>
                         <div className = {styles.listItem}>
-                            Project Management
+                        (Super/Unsuper)vised Learning
+                        </div>
+                        <div className = {styles.listItem}>
+                        Shallow/Deep Learning
+                        </div>
+                        <div className = {styles.listItem}>
+                        Recurrent Neural Networks
+                        </div>
+                        <div className = {styles.listItem}>
+                        Concurrent Neural Networks
+                        </div>
+                        <div className = {styles.listItem}>
+                        (Para/Nonpara)metric Models
+                        </div>
+                        <div className = {styles.listItem}>
+                        Ensemble Learning
+                        </div>
+                        <div className = {styles.listItem}>
+                        Bayesian Networks/Learning
+                        </div>
+                        <div className = {styles.listItem}>
+                        Multivariable Calculus
+                        </div>
+                        <div className = {styles.listItem}>
+                        Math Stats & Probability
+                        </div>
+                    </div>
+                    <div className = {styles.bioBodyHalfRightNew}>
+                        <div className = {styles.listItem}>
+                            R
+                        </div>
+                        <div className = {styles.listItem}>
+                            MATLAB
+                        </div>
+                        <div className = {styles.listItem}>
+                        Database Design
+                        </div>
+                        <div className = {styles.listItem}>
+                        NoSQL: MongoDB/Redis
+                        </div>
+                        <div className = {styles.listItem}>
+                            TensorFlow/Keras/sklearn
+                        </div>
+                        <div className = {styles.listItem}>
+                            SQLAlchemy/MongoEngine
+                        </div>
+                        <div className = {styles.listItem}>
+                        transformers (Hugging Face)
+                        </div>
+                        <div className = {styles.listItem}>
+                        Reinforcement Learning
+                        </div>
+                        <div className = {styles.listItem}>
+                        Data Mining/KDD
+                        </div>
+                        <div className = {styles.listItem}>
+                        LSTMs/GRUs
+                        </div>
+                        <div className = {styles.listItem}>
+                        Algorithm Optimization
+                        </div>
+                        <div className = {styles.listItem}>
+                        Decision Trees/KNNs/SVMs
+                        </div>
+                        <div className = {styles.listItem}>
+                        Random Forests/Boosting
+                        </div>
+                        <div className = {styles.listItem}>
+                        Markov Chains/HMM/MDP
+                        </div>
+                        <div className = {styles.listItem}>
+                        Linear Algebra
+                        </div>
+                        <div className = {styles.listItem}>
+                        Predicate Logic
                         </div>
                     </div>
                 </div>
                 <div className = {styles.bioBottomSpacing}></div>
             </div>
             <div className = {styles.fullPage}>
-                <div className = {styles.employmentHeader}>
-                    Employment
+                <div className = {styles.mLemploymentHeader}>
+                    Employment & Freelance Work
                 </div>
                 <div className = {styles.bioBodyVertical} >
                     <div className = {styles.bigListItemFull}>
-                        I have worked as a full stack software engineer at Sho 
-                        Technology Solutions since April 2022. I spend most of my
-                        time writing, reviewing, and optimizing C# and SQL 
-                        in Microsoft's .NET/Azure ecosystem. My 
-                        responsibilities also include leading development teams by 
-                        communicating with clients, assisting junior developers, 
-                        and reviewing pull requests; implenting Azure CI/CD; 
-                        developing React, Vue, and Angular websites; and 
-                        architecting both native and Capacitor-generated 
-                        mobile applications. I also leverage my lawyer skillset 
-                        and interpersonal skills to write business proposals;  
-                        onboard new clients; and lead requirements gathering and 
-                        early development. My experience encompasses several projects:
+                    &nbsp; &nbsp; &nbsp; &nbsp; 
+                        Although most of my practical machine learing experience stems from 
+                        my personal projects, my full stack software engineering job has presented me 
+                        with opportunities to create machine learning models to augment 
+                        existing software. I also undertake freelance machine learning engineering and 
+                        data science work that enables me to further refine my skills and immerse myself
+                        in this dynamic, fascinating world. My paid work—while increasingly focused on 
+                        natural language processing—spans the entire data science-machine learning 
+                        engineer spectrum, covering deliverables as disparate as neural networks, 
+                        data visualization documents, Bayesian networks, regression reports, 
+                        and support vector machines:
+                        
                     </div>
                     <div className = {styles.listItemFullNew}>
-                        • Developed a .NET web application that continuously fetches 
-                        river streamflow data, updates a database, generates Excel 
-                        reports, and &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
-                        notifies users of abnormal readings. Also 
-                        created an Azure Logic App Recurrence to run it.
+                    •	Designed and implemented a k-nearest neighbors classifier that 
+                        utilizes current river streamflow and weather data to 
+                        accurately predict &nbsp;&nbsp; &nbsp; &nbsp; whether 
+                        future streamflow levels will satisfy a regulatory threshold. 
                     </div>
                     <div className = {styles.listItemFullNew}>
-                    •	Designed and implemented a machine learning model that utilizes current river     
-                        streamflow and weather data to accurately predict future 
-                        &nbsp;&nbsp; &nbsp; &nbsp;streamflow levels.
+                        • Created and optimized a linear regression model 
+                          to estimate demand for a regional food manufacturer's products, enabling it to fine-tune 
+                          &nbsp; &nbsp; pricing and intelligently plan future expansions.
                     </div>
                     <div className = {styles.listItemFullNew}>
-                        • Led a five-developer team that used Capacitor to create a  
-                        Vue web, iOS, and Android client portal for a large regional 
-                        health company.  &nbsp;&nbsp; &nbsp; &nbsp; Also created the Azure CI/CD.
+                    •	Employed R to perform exploratory data analysis for a wholesale distributor 
+                        before utilizing Tableau for data visualization, generating &nbsp; &nbsp; &nbsp; &nbsp;
+                        aesthetically pleasing, user-friendly graphs to empower business leaders and decision makers. 
                     </div>
                     <div className = {styles.listItemFullNew}>
-                    •	Developed both the Angular frontend and C# backend of a legal aid organization’s    
-                        client, attorney, and case management system. Also &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; regularly met with the client’s
-                        chief executive to explain changes and solicit feedback.
+                    •	Currently finalizing sentiment analysis software that utilizes a 
+                        Bayesian network and support vector machine to classify user reviews, 
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        empowering a regional food manufacturer to accurately ascertain its users' 
+                        preferences and quickly address concerns. 
                     </div>
                     <div className = {styles.listItemFullNew}>
-                    •	Created optimized SQL stored procedures and C# LINQ queries to efficiently 
-                        aggregate data from numerous database tables, enabling a &nbsp;&nbsp;Concussion testing
-                        application’s users to quickly generate custom, complex Excel reports.
+                    •	Presently designing a recurrent neural network—based on the Long 
+                        Short-Term Memory architectural paradigm—to actualize a domain-
+                        &nbsp; &nbsp; specific 
+                        chatbot for a regional food manufacturer, enabling customers to receive immediate 
+                        responses to their questions. 
                     </div>
                 </div>
             </div>
