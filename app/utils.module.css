@@ -208,6 +208,75 @@ padding-top: 6vh;
     padding-top: 3vh;
     }
 
+    .projectHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 7.4vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
+    .isaeusHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 13.75vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
+    .ppHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 17.75vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+    .votingHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 7vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
+    .smallProjectHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 29vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
 .bioBodyFull{
     width: 70vw;
     height: 790vh;

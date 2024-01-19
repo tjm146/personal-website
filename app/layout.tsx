@@ -31,10 +31,10 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
           <Link href="../machineLearning">Machine Learning</Link>
           <Link href="../softwareEngineering">Software Engineering</Link>
           <Link href="../attorneyProfile">Attorney Profile</Link>
-          <Link href="../projects">Personal ML/SE Projects</Link>
+          <Link href="../personalProjects">MLE/DS/SE Projects</Link>
+          <Link href="../softwareEngineering">Business Offered</Link>
           <Link href="../projects">Creative Endeavors</Link>
           <Link href="../softwareEngineering">Resume</Link>
-          <Link href="../softwareEngineering">Business Offered</Link>
           <Link href="../softwareEngineering">About Me</Link>
           <Link href="/contact">Contact</Link>
         </div>
@@ -50,7 +50,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                         },
         
                     },
-                    fpsLimit: 144,
+                    fpsLimit: 60,
                     interactivity: {
                         events: {
                             onClick: {
@@ -81,8 +81,8 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                             color: "#ffffff",
                             distance: 150,
                             enable: true,
-                            opacity: 0.5,
-                            width: 1,
+                            opacity: 1,
+                            width: 1.3,
                         },
                         move: {
                             direction: "none",
@@ -102,7 +102,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                             value: 80,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 1,
                         },
                         shape: {
                             type: "circle",

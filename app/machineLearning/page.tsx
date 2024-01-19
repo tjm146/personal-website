@@ -39,7 +39,7 @@ const SoftwareEngineering = () => {
                     original research investigating the application of natural language and signal 
                     processing to piano notes and sheet music and have enjoyed early success translating
                     between sheet music and mathematical representations of piano notes. Much requested 
-                    by my attorney friends, my current endeavor is my most ambitious yet: LLM-powered legal
+                    by my attorney friends, my current endeavor is also my most ambitious: LLM-powered legal
                     document drafting and review software. While my work is still in its infancy, my 
                     nascent models can already detect obvious errors in basic documents such as 
                     Articles of Incorporation. 
