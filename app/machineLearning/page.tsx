@@ -12,7 +12,7 @@ const SoftwareEngineering = () => {
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
                 <div className = {styles.dataScienceHeader}>
-                    My Machine Learning & Data Science Credentials
+                    Machine Learning & Data Science Credentials
                 </div>
                 <div className = {styles.bioBody}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -55,7 +55,7 @@ const SoftwareEngineering = () => {
                             Python
                         </div>
                         <div className = {styles.listItem}>
-                            Julia
+                            Julia/Tableau
                         </div>
                         <div className = {styles.listItem}>
                             C++
@@ -70,7 +70,7 @@ const SoftwareEngineering = () => {
                         SciPy/NumPy/Pandas/Matplotlib
                         </div>
                         <div className = {styles.listItem}>
-                        NLTK/spaCY/OpenAI API
+                        spaCY/NLTK/OpenAI API
                         </div>
                         <div className = {styles.listItem}>
                         (Super/Unsuper)vised Learning

@@ -12,7 +12,7 @@ const Attorney = () => {
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
                 <div className = {styles.attorneyHeader}>
-                    My Attorney Profile
+                    Attorney Profile
                 </div>
                 <div className = {styles.bioBody}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 

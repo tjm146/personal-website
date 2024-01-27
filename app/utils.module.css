@@ -4,16 +4,23 @@
     box-sizing: border-box;
     width: 18vw;
     height: 100vh;
-    background-color: #fff;
+    /*background-color: #2e4c5c; */
+    background-color: #000;
     position: fixed;
-    color: #000000;
+    color: #fff;
     font-size:1.3vw;
     z-index: 99999999999;
 }
 
+.nonHome {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
 .sidebar a {
     display: block;
-    color: black;
+    color: #fff;
     padding-left: 2vw;
     text-decoration: none;
     height: 10vh;
@@ -24,14 +31,17 @@
     text-justify: end;
     text-align: start;
     text-justify: center;
-    border-bottom: .14vh solid rgb(0, 0, 0);
+    border-bottom: .14vh solid rgb(255, 255, 255);
+    border-right: .14vh solid rgb(255, 255, 255);
     white-space: pre-line;
     line-height: 10vh;
 }
 
 .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: white;
+    color: black;
+    border-bottom: .14vh solid #555;
+    border-right: .14vh solid #555;
 }
 
 .content {
@@ -76,7 +86,8 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    color: white;
+    /*color: #00008B; */
+    color: #000;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 999999999;
@@ -105,6 +116,14 @@
     margin-left: 8vw;
 }
 
+.linkStyle{
+    font-family: Lato;
+    font-size: 1.2vw;
+    line-height: 4vh;
+    width: 40vw;
+    height: 2vh;
+}
+
 
 .fullPage{
     width: 70vw;
@@ -113,6 +132,16 @@
     line-height: 6vh;
     font-family: Lato;
     padding-left: 15vw;
+  }
+
+  .resumePage{
+    width: 75vw;
+    height: 98vh;
+    text-align: center;
+    line-height: 6vh;
+    font-family: Lato;
+    padding-left: 20.18vw;
+    padding-top: 1.5vh;
   }
 
 .philosophyHeader{
@@ -125,7 +154,7 @@ font-family: Lato;
 font-size: 2.75vw;
 text-emphasis: bold;
 text-transform: uppercase;
-margin-left: 13.75vw;
+margin-left: 15.65vw;
 padding-bottom: 1vh;
 }
 
@@ -141,6 +170,33 @@ text-transform: uppercase;
 margin-left: 36.65vw;
 padding-top: 6vh;
 }
+
+.pianoHeader{
+    width: 60vw;
+    height: 10vh;
+    text-align: start;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 2.75vw;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    margin-left: 36.5vw;
+    padding-top: 2.5vh;
+    }
+
+    .bookHeader{
+        width: 60vw;
+        height: 8vh;
+        text-align: start;
+        line-height: 4vh;
+        font-family: Lato;
+        font-size: 2.75vw;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 19vw;
+        padding-top: 2.5vh;
+        padding-bottom: 4vh;
+        }
 
 .mLskillsHeader{
     width: 60vw;
@@ -190,10 +246,53 @@ padding-top: 6vh;
     line-height: 4vh;
     text-emphasis: bold;
     text-transform: uppercase;
-    margin-left: 5vw;
+    margin-left: 7.15vw;
     padding-top: 3vh;
     padding-bottom: 1.6vh;
     }
+
+    .creativeHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 17.1vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+        }
+
+    .homeHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        display: flex;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 13.5vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+        }
+
+    .slowHeader {
+    animation: fadeIn 3s;
+    }
+
+    .fastHeader {
+        animation: fadeIn 5s;
+    }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
+          
 
 .attorneyHeader{
     width: 100vw;
@@ -204,7 +303,7 @@ padding-top: 6vh;
     line-height: 4vh;
     text-emphasis: bold;
     text-transform: uppercase;
-    margin-left: 27vw;
+    margin-left: 28.4vw;
     padding-top: 3vh;
     }
 
@@ -217,7 +316,35 @@ padding-top: 6vh;
         line-height: 4vh;
         text-emphasis: bold;
         text-transform: uppercase;
-        margin-left: 7.4vw;
+        margin-left: 10.6vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
+    .businessHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 26.85vw;
+        padding-top: 3vh;
+        padding-bottom: 1.6vh;
+    }
+
+    .pricingHeader{
+        width: 100vw;
+        height: 10vh;
+        text-align: start;
+        font-family: Lato;
+        font-size: 2.75vw;
+        line-height: 4vh;
+        text-emphasis: bold;
+        text-transform: uppercase;
+        margin-left: 26.5vw;
         padding-top: 3vh;
         padding-bottom: 1.6vh;
     }
@@ -477,6 +604,17 @@ padding-top: 6vh;
     overflow-x: hidden;
 }
 
+.resumeContainer {
+    width: 99vw;
+    height: 100vh;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1vw;
+    overflow-x: hidden;
+}
+
 .listHeader{
     width: 70vw;
     height: 20vh;
@@ -498,6 +636,48 @@ padding-top: 6vh;
     font-family: Lato;
     font-size: 1.2vw;
     margin-bottom: 3vw;
+    margin-left: 8vw;
+}
+
+.bigListItemFullLink{
+    width: 70vw;
+    height: 20vh;
+    display: inline-block;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 3vw;
+    margin-left: 8vw;
+}
+
+.bigListItemFullLinkFreelance{
+    width: 70vw;
+    height: 20vh;
+    display: inline-block;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 5.5vw;
+    margin-left: 8vw;
+}
+
+.bigListItemFullLinkPricing{
+    width: 70vw;
+    height: 20vh;
+    display: inline-block;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 17.75vw;
     margin-left: 8vw;
 }
 
@@ -524,6 +704,34 @@ padding-top: 6vh;
     font-size: 1.2vw;
     margin-bottom: 1.5vw;
     margin-left: 10vw;
+}
+
+.listItemFullFreelance{
+    width: 67vw;
+    height: 7.5vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+}
+
+.listItemFullPricing{
+    width: 67vw;
+    height: 7.5vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-bottom: 10vh;
+    margin-left: 31.5vw;
 }
 
 @font-face {

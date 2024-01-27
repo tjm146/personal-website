@@ -12,7 +12,7 @@ const SoftwareEngineering = () => {
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
                 <div className = {styles.philosophyHeader}>
-                    My Software Engineering Philosophy
+                    Software Engineering Philosophy
                 </div>
                 <div className = {styles.bioBody}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 

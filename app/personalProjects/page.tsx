@@ -12,23 +12,24 @@ const PersonalProjects = () => {
         <div className = {styles.containerPage}>
             <div className = {styles.fullPage}>
                 <div className = {styles.projectHeader}>
-                    My Machine Learning and Software Projects
+                    Machine Learning and Software Projects
                 </div>
                 <div className = {styles.bioBody}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 
                     I have worked on numerous machine learning engineering ("MLE"), software 
-                    engineering("SWE"), and data science ("DS") projects over the past two and 
-                    a half years. As a preliminary matter, I want to elucidate my terminology 
+                    engineering("SWE"), and data science ("DS") projects over the past two 
+                    years. As a preliminary matter, I want to elucidate my terminology 
                     regarding the demarcations between these three disciplines. I use SWE to refer 
                     to traditional, user-facing applications that store and retrieve data, typically 
                     running it through an intermediate logical layer to enforce any business requirements. 
                     In contrast, both MLE and DS applications are less visible to the end user; models are 
                     trained on prodigious datasets, optimized, and then typically deployed without the 
                     end users' direct involvement. While both MLE and DS applications require the construction of 
-                    complex models, they can be differentiated by their end product: DS delivers reports, but  
-                    MLE supplies the machine learning models themselves. While I have crafted applications for 
-                    each of these categories, the last year has seen me "narrow the funnel" as I specialize 
-                    more on MLE, especially natural language processing ("NLP")
+                    complex models, they are differentiated by their end product: DS delivers reports and 
+                    visualizations, but MLE supplies the machine learning models themselves. While I 
+                    have crafted applications for each of these categories, the last year has seen a 
+                    "narrowing of the funnel" as I specialize more on MLE, especially natural language 
+                    processing ("NLP"). I now spend all my non-freelance time working on Isaeus.
                 </div>
             </div>
             <div className = {styles.fullPage}>
@@ -41,17 +42,18 @@ const PersonalProjects = () => {
                     found a legal intelligence company that builds domain-specific large language models
                     ("LLMs") to facilitate lawyers' work. My unique background endows me with both a lawyer's 
                     skillset and preferences as well as a MLE's deep knowledge of NLP, algorithm optimization, 
-                    multivariable calculus, linear algebra, and mathematical statistics and probability. Few individuals 
-                    possess both a lawyer and MLE's skillset, and I have long aspired to combine them to create 
-                    an exceptional, innovative application.
+                    multivariable calculus, linear algebra, and mathematical statistics and probability. Few 
+                    individuals possess both skillsets, and I have long aspired to combine them to create 
+                    something extraordinary.
                     <br></br>  &nbsp; &nbsp; &nbsp; &nbsp; 
                     Isaeus's hallmark is its focus on epistemological reduction: anyone who even cursorily follows 
                     the news has likely heard of LLM's propensity to hallucinate "facts" that are either 
                     false, unproven, or unrelated to the querier's topic. I hypothesize that, by extracting knowledge 
                     from non-legal disciplines, I can build a robust epistemological foundation that precipitates 
                     specialized agents less prone to hallucinations. While my models can already flag obvious errors 
-                    such as entering different dollar figures for the same transaction, I have much more work to 
-                    do on the "generative" side and do not anticipate offering models to potential clients before 2026.
+                    such as entering different dollar figures for the same transaction, I have years worth of work 
+                    left and do not anticipate offering models to potential clients before 2026 at the earliest. Isaeus 
+                    is not a virtual lawyer: it merely assists human lawyers.
                 </div>
             </div>
             <div className = {styles.fullPage}>
@@ -73,11 +75,10 @@ const PersonalProjects = () => {
                     minute song perfectly except for one wrong note, I can load the song and set 
                     that note to the desired pitch. I completed all these "basic" features and have spent 
                     the last 9 months adding signal processing and NLP models to translate between audio 
-                    signals and sheet music. While my models accurately translate easy piano songs, I 
-                    have much more to optimize before they can handle difficult pieces and I 
-                    feel comfortable integrating them into the main application. I also began remaking 
-                    the app in Flutter so I can deploy to iOS and Android. However, I have stopped all work 
-                    on PianoPlaybook as I focus on Isaeus. 
+                    signals and sheet music. While my models accurately translate easy piano songs, they cannot 
+                    yet translate difficult pieces. I also began remaking the app in Flutter so I can deploy 
+                    to web, iOS and Android from a single codebase. I have stopped all work on PianoPlaybook 
+                    as I focus on Isaeus; however, I hope to work on the app more in the future. 
                 </div>
             </div>
             <div className = {styles.fullPage}>
@@ -104,15 +105,16 @@ const PersonalProjects = () => {
                 <div className = {styles.bioBodyVertical} >
                     <div className = {styles.bigListItemFull}>
                     &nbsp; &nbsp; &nbsp; &nbsp; 
-                        In addition to Isaeus and my other two, larger projects mentioned 
+                        In addition to Isaeus and my other two larger projects mentioned 
                         above, I have also worked on smaller projects not large 
                         enough to warrant their own section. I viewed these projects as 
-                        learning experiences and utilized them to acquaint myself with disparate areas of machine learning 
-                        ; I tried to focus on fields outside of my NLP specialty. Typically not requiring 
-                        more than 20 hours of total work, these projects lacked UIs and focused 
+                        learning experiences and used them to acquaint myself with disparate areas of 
+                        machine learning, especially fields outside of my NLP specialty. Typically not requiring 
+                        more than 20 hours of total work, they lacked UIs and focused 
                         solely on implementing various machine learning models. Because I did not 
                         create UIs or fully optimize these projects, I completed them all, giving me experience 
-                        in most of machine learning's most prominent specialties. 
+                        in many of machine learning's most prominent fields. I implemented all projects in 
+                        Python, using R for exploratory data analysis. 
                     </div>
                     <div className = {styles.listItemFullNew}>
                         • Designed and implemented a convolutional neural network ("CNN") that 
@@ -122,7 +124,8 @@ const PersonalProjects = () => {
                     </div>
                     <div className = {styles.listItemFullNew}>
                     •	Created a support vector machine-based text classifier. The classifier can accurately predict 
-                    a book's genre based on several sentences of text. 
+                    a book's genre based on several sentences of &nbsp; &nbsp;  text. I also extended an external 
+                    captioning library to train a model to caption simple images. 
                     </div>
                     <div className = {styles.listItemFullNew}>
                         • Built an unsupervised k-means clustering model that could group songs by genre. The training 

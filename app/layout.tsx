@@ -9,7 +9,7 @@ import { loadSlim } from "tsparticles-slim";
 
 
 export default function RootLayout({ children }) {
-  const particlesInit = useCallback(async (engine: Engine) => {
+  const particlesInit =useCallback(async (engine: Engine) => {
     console.log(engine);
     // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -31,11 +31,11 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
           <Link href="../machineLearning">Machine Learning</Link>
           <Link href="../softwareEngineering">Software Engineering</Link>
           <Link href="../attorneyProfile">Attorney Profile</Link>
-          <Link href="../personalProjects">MLE/DS/SE Projects</Link>
-          <Link href="../softwareEngineering">Business Offered</Link>
-          <Link href="../projects">Creative Endeavors</Link>
-          <Link href="../softwareEngineering">Resume</Link>
-          <Link href="../softwareEngineering">About Me</Link>
+          <Link href="../personalProjects">MLE/SDE/DS Projects</Link>
+          <Link href="../freelancing">Freelancing</Link>
+          <Link href="../resume">Resume</Link>
+          <Link href="../creativeEndeavors">Creative Endeavors</Link>
+          <Link href="../softwareEngineering">Personal Interests</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <div className={`${styles.message}`}> {children} </div>
@@ -46,16 +46,16 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                 options={{
                     background: {
                         color: {
-                            value: "#000000",
+                            value: "#ffffffff",
                         },
         
                     },
-                    fpsLimit: 60,
+                    fpsLimit: 144,
                     interactivity: {
                         events: {
                             onClick: {
-                                enable: true,
-                                mode: "push",
+                                enable: false,
+                                mode: "push"
                             },
                             onHover: {
                                 enable: true,
@@ -65,7 +65,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                         },
                         modes: {
                             push: {
-                                quantity: 4,
+                                quantity: 5,
                             },
                             repulse: {
                                 distance: 200,
@@ -75,14 +75,14 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#000",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#000",
                             distance: 150,
                             enable: true,
-                            opacity: 1,
-                            width: 1.3,
+                            opacity: .75,
+                            width: 2,
                         },
                         move: {
                             direction: "none",
@@ -102,16 +102,16 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                             value: 80,
                         },
                         opacity: {
-                            value: 1,
+                            value: 10,
                         },
                         shape: {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 1, max: 5 },
+                            value: { min: 1, max: 3 },
                         },
                     },
-                    detectRetina: true,
+                    detectRetina: true
                 }}
             />
       </body>
