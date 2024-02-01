@@ -124,10 +124,10 @@ const SoftwareEngineering = () => {
                         in Microsoft's .NET/Azure ecosystem. My 
                         responsibilities also include leading development teams by 
                         liaising with clients, assisting junior developers, 
-                        and reviewing pull requests; implenting Azure CI/CD; 
+                        and reviewing pull requests; implementing Azure CI/CD; 
                         developing React, Vue, and Angular websites; and 
                         architecting both native and Capacitor-generated 
-                        mobile applications. I also leverage my lawyer skillset 
+                        mobile applications. I also leverage my lawyer skill set 
                         and interpersonal skills to write business proposals;  
                         onboard new clients; and lead requirements gathering and 
                         early development. My experience encompasses several projects:

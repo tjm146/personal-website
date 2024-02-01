@@ -26,7 +26,7 @@ const Attorney = () => {
                     by regularly reading law reviews and journals; casebooks; and germane 
                     cases, statutes, and regulations. My annual Continuing Legal Eduction 
                     courses, which I focus on these three legal disciplines, also keep me updated 
-                    on new, pertinent develops. Finally, I sustain my skillset by helping family 
+                    on new, pertinent develops. Finally, I sustain my skill set by helping family 
                     and friends with legal issues—especially contract matters—and volunteering 
                     for pro bono legal work. 
                 </div>

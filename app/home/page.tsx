@@ -28,7 +28,7 @@ const Home = () => {
               Intelligence
               </div>
               <div className = {styles.slowHeader}>
-              {showElement?<div className = {styles.slowHeader}>, Beatifully Engineered</div>:<></>}
+              {showElement?<div className = {styles.slowHeader}>, Elegantly Engineered</div>:<></>}
               </div>
           </div>
           <div className = {styles.bioBody}>
@@ -36,7 +36,7 @@ const Home = () => {
               A multipotentialite currently based out of bucolic Northeastern
               Pennsylvania, I am a machine learning engineer; full stack software engineer; data scientist; 
               active, licensed lawyer; pianist; and aspiring novelist. My mathematical, 
-              engineering, and statistical skillsets span myriad stacks and 
+              engineering, and statistical skill sets span myriad stacks and 
               disciplines, but I specialize in artificial intelligence/machine learning, 
               particularly natural language processing. I am constantly seeking new 
               mathematical challenges and am amenable to machine learning engineering, data science, 

@@ -19,7 +19,7 @@ const CreativeEndeavors = () => {
                     Reading, writing, and music have long empowered me to transport myself from our myopic, 
                     individualistic world of competing desires to a higher, oneiric plane constructed from 
                     a metaphysical foundation of shared dreams and passions. My fleeting yet spectacular 
-                    sojourns through these Elysian abberations engender drastic changes in my vessel left 
+                    sojourns through these Elysian aberrations engender drastic changes in my vessel left 
                     behind in our staid world: I can enter a "flow state" empowering me to focus intently while 
                     working, reading, or writing and play the piano as if it was an extension of my body. 
                     These mystical excursions into our shared human experience—reminiscent of Hegel's 

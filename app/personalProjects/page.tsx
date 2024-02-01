@@ -5,6 +5,7 @@ import Particles from "react-tsparticles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 import styles from "../utils.module.css"
+import Link from "next/link";
 
 const PersonalProjects = () => {
     
@@ -36,12 +37,12 @@ const PersonalProjects = () => {
                 <div className = {styles.isaeusHeader}>
                     Isaeus: Generative Legal Intelligence
                 </div>
-                <div className = {styles.bioBody}>
+                <div className = {styles.bioBodyIsaeus}>
                 &nbsp; &nbsp; &nbsp; &nbsp; 
                     Isaeus dwarfs all my other endeavors in ambition, scope, and difficulty: I strive to 
                     found a legal intelligence company that builds domain-specific large language models
                     ("LLMs") to facilitate lawyers' work. My unique background endows me with both a lawyer's 
-                    skillset and preferences as well as a MLE's deep knowledge of NLP, algorithm optimization, 
+                    skill set and preferences as well as a MLE's deep knowledge of NLP, algorithm optimization, 
                     multivariable calculus, linear algebra, and mathematical statistics and probability. Few 
                     individuals possess both skillsets, and I have long aspired to combine them to create 
                     something extraordinary.
@@ -55,6 +56,10 @@ const PersonalProjects = () => {
                     left and do not anticipate offering models to potential clients before 2026 at the earliest. Isaeus 
                     is not a virtual lawyer: it merely assists human lawyers.
                 </div>
+                <div className = {styles.bioBodyIsaeusSmall}>
+                <p>Isaeus's website can be found <Link className = {styles.linkStyle} href="https://isaeus.ai/">
+                        here </Link> </p>
+                </div>
             </div>
             <div className = {styles.fullPage}>
                 <div className = {styles.ppHeader}>
@@ -67,7 +72,7 @@ const PersonalProjects = () => {
                     exactly what I played when I subsequently tried to recreate the notes as sheet music. 
                     Frustrated with my inability to leave an indelible mark on our shared canvas of reality, 
                     I created PianoPlaybook to shield my nascent acoustic creations from time's cold, 
-                    innexorable march. The iOS app displays a virtual piano keyboard to users and tracks the 
+                    inexorable march. The iOS app displays a virtual piano keyboard to users and tracks the 
                     pitch and duration of any notes; if users enjoy what they play, they can store a 
                     virtual record. Users can later load these saved record to listen to the song 
                     again or send it to their friends. However, the app's hallmark feature empowers 
@@ -90,7 +95,7 @@ const PersonalProjects = () => {
                     I planned to launch a machine learning-powered web application that displays a 
                     map of Pennsylvania and lets users click on counties to obtain detailed voting 
                     analytics and predictions for each county. I developed a non-parametric, Gaussian 
-                    Process Regression ("GPR") model that employes Bayesian learning to predict voting outcomes. I 
+                    Process Regression ("GPR") model that employs Bayesian learning to predict voting outcomes. I 
                     utilized GPR instead of normal, linear regression because my training data sets were 
                     relatively small and I wanted a confidence measure in addition to a prediction: GPR excels 
                     in both cases. While I finished creating the GPR models—they predicted past elections 
@@ -120,7 +125,7 @@ const PersonalProjects = () => {
                         • Designed and implemented a convolutional neural network ("CNN") that 
                         classifies images of clothing: e.g., "This is a pair of pants, this is 
                         &nbsp;&nbsp;  a shirt, etc." I chose clothing because of the free 
-                        Fashion-MNIST dataset that contains tens of thousands of labeled greyscale images. 
+                        Fashion-MNIST dataset that contains tens of thousands of labeled grayscale images. 
                     </div>
                     <div className = {styles.listItemFullNew}>
                     •	Created a support vector machine-based text classifier. The classifier can accurately predict 

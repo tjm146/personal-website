@@ -134,6 +134,17 @@
     padding-left: 15vw;
   }
 
+  .contactPage{
+    width: 70vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    line-height: 6vh;
+    font-family: Lato;
+    padding-left: 15vw;
+    padding-top: 20v;
+  }
+
   .resumePage{
     width: 75vw;
     height: 98vh;
@@ -265,6 +276,61 @@ padding-top: 6vh;
         padding-bottom: 1.6vh;
         }
 
+        .readerHeader{
+            width: 100vw;
+            height: 5vh;
+            text-align: start;
+            font-family: Lato;
+            font-size: 2.75vw;
+            line-height: 4vh;
+            text-emphasis: bold;
+            text-transform: uppercase;
+            margin-left: 20.5vw;
+            padding-top: 3vh;
+            padding-bottom: 7vh;
+            }
+
+            .physicalHeader{
+                width: 100vw;
+                height: 5vh;
+                text-align: start;
+                font-family: Lato;
+                font-size: 2.75vw;
+                line-height: 4vh;
+                text-emphasis: bold;
+                text-transform: uppercase;
+                margin-left: 14.3vw;
+                padding-top: 3vh;
+                padding-bottom: 7vh;
+                }
+                .musicHeader{
+                    width: 100vw;
+                    height: 5vh;
+                    text-align: start;
+                    font-family: Lato;
+                    font-size: 2.75vw;
+                    line-height: 4vh;
+                    text-emphasis: bold;
+                    text-transform: uppercase;
+                    margin-left: 25.9vw;
+                    padding-top: 3vh;
+                    padding-bottom: 7vh;
+                    }
+                
+                    .gameHeader{
+                        width: 100vw;
+                        height: 5vh;
+                        text-align: start;
+                        font-family: Lato;
+                        font-size: 2.75vw;
+                        line-height: 4vh;
+                        text-emphasis: bold;
+                        text-transform: uppercase;
+                        margin-left: 33vw;
+                        padding-top: 3vh;
+                        padding-bottom: 7vh;
+                        }
+
     .homeHeader{
         width: 100vw;
         height: 10vh;
@@ -275,10 +341,71 @@ padding-top: 6vh;
         line-height: 4vh;
         text-emphasis: bold;
         text-transform: uppercase;
-        margin-left: 13.5vw;
+        margin-left: 14.25vw;
         padding-top: 3vh;
         padding-bottom: 1.6vh;
         }
+
+        .filmHeader{
+            width: 100vw;
+            height: 10vh;
+            text-align: start;
+            display: flex;
+            font-family: Lato;
+            font-size: 2.75vw;
+            line-height: 4vh;
+            text-emphasis: bold;
+            text-transform: uppercase;
+            margin-left: 33.25vw;
+            padding-top: 3vh;
+            padding-bottom: 1.6vh;
+            }
+
+            .artHeader{
+                width: 100vw;
+                height: 10vh;
+                text-align: start;
+                display: flex;
+                font-family: Lato;
+                font-size: 2.75vw;
+                line-height: 4vh;
+                text-emphasis: bold;
+                text-transform: uppercase;
+                margin-left: 38.75vw;
+                padding-top: 3vh;
+                padding-bottom: 1.6vh;
+                }
+
+                .coffeeHeader{
+                    width: 100vw;
+                    height: 10vh;
+                    text-align: start;
+                    display: flex;
+                    font-family: Lato;
+                    font-size: 2.75vw;
+                    line-height: 4vh;
+                    text-emphasis: bold;
+                    text-transform: uppercase;
+                    margin-left: 31.25vw;
+                    padding-top: 3vh;
+                    padding-bottom: 1.6vh;
+                    }
+
+
+                    .contactHeader{
+                        width: 100vw;
+                        height: 10vh;
+                        text-align: start;
+                        display: flex;
+                        font-family: Lato;
+                        font-size: 2.75vw;
+                        line-height: 4vh;
+                        text-emphasis: bold;
+                        text-transform: uppercase;
+                        margin-left: 32.25vw;
+                        padding-top: 3vh;
+                        padding-bottom: 21.6vh;
+                        }
 
     .slowHeader {
     animation: fadeIn 3s;
@@ -372,7 +499,7 @@ padding-top: 6vh;
         line-height: 4vh;
         text-emphasis: bold;
         text-transform: uppercase;
-        margin-left: 17.75vw;
+        margin-left: 18.25vw;
         padding-top: 3vh;
         padding-bottom: 1.6vh;
     }
@@ -416,9 +543,22 @@ padding-top: 6vh;
     text-transform: uppercase;
     }
 
-.bioBody{
+    .bioBody{
+        width: 70vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        line-height: 4vh;
+        font-family: Lato;
+        font-size: 1.2vw;
+        margin-left: 8vw;
+    }
+
+    .bioBodyIsaeus{
     width: 70vw;
-    height: 75vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,6 +569,19 @@ padding-top: 6vh;
     margin-left: 8vw;
 }
 
+.bioBodyIsaeusSmall{
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    line-height: 4vh;
+    font-family: Lato;
+    font-size: 1.2vw;
+    margin-left: 9.5vw;
+}
+
 .bioBodyVertical{
     width: 70vw;
     height: 58vh;
@@ -437,6 +590,17 @@ padding-top: 6vh;
     align-items: center;
     line-height: 4vh;
     font-family: Lato;
+}
+
+.contactItem{
+    width: 70vw;
+    height: 15vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 4vh;
+    font-family: Lato;
+    margin-left: 6vw;
 }
 
 .listBioHeader{

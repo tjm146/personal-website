@@ -35,7 +35,7 @@ const SoftwareEngineering = () => {
                     mathematics and linguistics to unite the logical, binary world 
                     of machines with the impassioned, creative human milieu, empowering  
                     me to fully utilize my mathematical, software, legal, and novelistic 
-                    skillsets to create some extraordinary, innovative applications. I have performed 
+                    skill sets to create some extraordinary, innovative applications. I have performed 
                     original research investigating the application of natural language and signal 
                     processing to piano notes and sheet music and have enjoyed early success translating
                     between sheet music and mathematical representations of piano notes. Much requested 
@@ -159,7 +159,7 @@ const SoftwareEngineering = () => {
                 <div className = {styles.bioBodyVertical} >
                     <div className = {styles.bigListItemFull}>
                     &nbsp; &nbsp; &nbsp; &nbsp; 
-                        Although most of my practical machine learing experience stems from 
+                        Although most of my practical machine learning experience stems from 
                         my personal projects, my full stack software engineering job has presented me 
                         with opportunities to create machine learning models to augment 
                         existing software. I also undertake freelance machine learning engineering and 

@@ -80,7 +80,7 @@ const Business = () => {
                         tuning hyperparameters and adjusting the architecture to bring it into accord with 
                         the business requirements. While I love this work, it is mentally draining, and I reflect 
                         this in the higher rate: I am also cognizant of the highly specialized nature of this work 
-                        and the dearth of individuals who possess the requisite skillset. 
+                        and the dearth of individuals who possess the requisite skill set. 
                         <br></br>&nbsp; &nbsp; &nbsp; &nbsp; 
                         The list below contains both my DS/SDE and MLE hourly rates. While I am amenable to flexible 
                         arrangements—e.g., equity—and am capable of running my own financial estimations on 

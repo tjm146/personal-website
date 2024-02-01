@@ -35,7 +35,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
           <Link href="../freelancing">Freelancing</Link>
           <Link href="../resume">Resume</Link>
           <Link href="../creativeEndeavors">Creative Endeavors</Link>
-          <Link href="../softwareEngineering">Personal Interests</Link>
+          <Link href="../personalInterests">Personal Interests</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <div className={`${styles.message}`}> {children} </div>
