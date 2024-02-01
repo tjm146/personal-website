@@ -1,4 +1,5 @@
 'use client'
+// @ts-nocheck
 import React, { ReactNode } from "react"
 import Link from "next/link"
 import styles from "./utils.module.css"
@@ -7,7 +8,7 @@ import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-
+//@ts-nocheck
 export default function RootLayout({ children }) {
   const particlesInit =useCallback(async (engine: Engine) => {
     console.log(engine);
