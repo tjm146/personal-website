@@ -25,7 +25,12 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
   
   return (
     <html className={`${styles.header}`}>
-      <head className={`${styles.header}`}/>
+      <head className={`${styles.header}`}>
+        <title> Cognify AI: Machine Learning, Artificial Intelligence, & Software Engineering Services</title>
+        <meta name="description" content="I provide machine learning engineering, artifical intelligence, 
+        software engineering, and software development services in Python, Pytorch, and C#. I can create 
+        LLMs, transformers, neural networks, and more." />
+      </head>
       <body className={`${styles.header}`}>
         <div className={`${styles.sidebar}`}>
           <Link href="../home">Home</Link>

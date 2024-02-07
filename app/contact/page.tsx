@@ -23,6 +23,9 @@ const SoftwareEngineering = () => {
                 <div className = {styles.contactItem}>
                     Pronouns: He/him
                 </div>
+                <div className = {styles.contactItem}>
+                    Scranton PA, 18503
+                </div>
             </div>
         </div>
     );
